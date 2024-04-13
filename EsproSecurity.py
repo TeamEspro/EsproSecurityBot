@@ -44,11 +44,11 @@ async def start(_, msg):
           InlineKeyboardButton("Aᴅᴅ Mᴇ Bᴀʙʏ", url=f"https://t.me/EsproSecurityBot?startgroup=true")
         ],
         [
-            InlineKeyboardButton("🍁Support🥀", url="https://t.me/EsproSupport"),
-            InlineKeyboardButton("🍁Update🥀", url="https://t.me/EsproUpdate"),    
+            InlineKeyboardButton("🍁Sᴜᴘᴘᴏʀᴛ🥀", url="https://t.me/EsproSupport"),
+            InlineKeyboardButton("🍁Uᴘᴅᴀᴛᴇ🥀", url="https://t.me/EsproUpdate"),    
         ],
         [
-          InlineKeyboardButton("❄️Owner❄️", user_id=OWNER_ID)
+          InlineKeyboardButton("❄️Oᴡɴᴇʀ❄️", user_id=OWNER_ID)
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -62,8 +62,8 @@ async def start(_, msg):
 
 gd_buttons = [              
         [
-            InlineKeyboardButton("❄️Owner❄️", user_id=OWNER_ID),
-            InlineKeyboardButton("🍁Update🥀", url="https://t.me/EsproUpdate"),    
+            InlineKeyboardButton("❄️Oᴡɴᴇʀ❄️", user_id=OWNER_ID),
+            InlineKeyboardButton("🍁Uᴘᴅᴀᴛᴇ🥀", url="https://t.me/EsproUpdate"),    
         ]
         ]
 
