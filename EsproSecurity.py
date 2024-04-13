@@ -50,7 +50,7 @@ async def start(_, msg):
             InlineKeyboardButton("🍁Update🥀", url="https://t.me/EsproUpdate"),    
         ],
         [
-          InlineKeyboardButton("❄️Owner❄️", user_id=OWNER_ID")
+          InlineKeyboardButton("❄️Owner❄️", user_id=OWNER_ID)
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
